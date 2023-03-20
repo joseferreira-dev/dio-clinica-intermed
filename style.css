@@ -92,12 +92,16 @@ body {
     display: flex;
     align-items: center;
     justify-content: right;
+    background-position: top left;
+    background-size: cover;
 }
 
 .header#home {
     background-image: url(img/banner-home.png);
-    background-position: top left;
-    background-size: cover;
+}
+
+.header#about {
+    background-image: url(img/banner-about.png);
 }
 
 .content {
@@ -117,4 +121,5 @@ body {
 
 .footer ul li {
     padding: 4px;
+    font-size: 16px;
 }
