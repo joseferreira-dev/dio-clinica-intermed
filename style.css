@@ -15,9 +15,14 @@ p {
 }
 
 h1 {
-    font-size: 48px;
+    font-size: 56px;
     margin: 0;
     color: #FEFEFE;
+    transition: 0.4s;
+}
+
+h1:hover {
+    color: #292929;
 }
 
 h2 {
@@ -28,6 +33,9 @@ h2 {
 
 html, body {
     margin: 0;
+}
+
+body {
     background-color: #3D94E6;
 }
 
@@ -49,6 +57,12 @@ html, body {
     min-width: 200px;
 }
 
+.menu #menu-logo {
+    font-size: 48px;
+    color: #FEFEFE;
+    margin-bottom: 20px;
+}
+
 .menu ul {
     list-style-type: none;
     padding: 0;
@@ -65,15 +79,25 @@ html, body {
 .menu ul li a {
     color: #FEFEFE;
     text-decoration: none;
+    transition: 0.4s;
+}
+
+.menu ul li a:hover {
+    color: #292929;
 }
 
 .header {
-    background-color: rgb(5, 108, 108);
     min-height: 150px;
-    padding: 20px;
+    padding: 20px 100px 20px 20px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: right;
+}
+
+.header#home {
+    background-image: url(img/banner-home.png);
+    background-position: top left;
+    background-size: cover;
 }
 
 .content {
@@ -82,6 +106,15 @@ html, body {
 }
 
 .footer {
-    background-color: rgb(99, 56, 240);
+    background-color: #A0C5D7;
+    padding: 20px;
     min-height: 150px;
+}
+
+.footer ul {
+    color: #292929;
+}
+
+.footer ul li {
+    padding: 4px;
 }
