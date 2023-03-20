@@ -131,6 +131,56 @@ body {
     border: 1px #292929 solid;
 }
 
+.content form {
+    font-size: 16px;
+}
+
+.content form label,
+.content form input,
+.content form textarea {
+    display: block;
+    width: 40%;
+}
+
+.content form label {
+    margin-top: 10px;
+    margin-bottom: 4px;
+}
+
+.content form input,
+.content form textarea {
+    padding: 4px;
+}
+
+.content form textarea {
+    max-width: 40%;
+    min-width: 40%;
+    min-height: 100px;
+}
+
+.content form button {
+    font-size: 16px;
+    font-weight: bold;
+    color: #FEFEFE;
+    background-color: #3D94E6;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    margin-top: 12px;
+    margin-bottom: 32px;
+    margin-right: 10px;
+    transition: 0.4s;
+}
+
+.content form button:hover {
+    color: #292929;
+    background-color: #A0C5D7;
+}
+
+.content iframe {
+    width: 40%;
+}
+
 .footer {
     background-color: #A0C5D7;
     padding: 20px;
