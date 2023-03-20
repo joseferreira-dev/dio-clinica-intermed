@@ -97,16 +97,38 @@ body {
 }
 
 .header#home {
-    background-image: url(img/banner-home.png);
+    background-image: url('img/banner-home.png');
 }
 
 .header#about {
-    background-image: url(img/banner-about.png);
+    background-image: url('img/banner-about.png');
+}
+
+.header#opening-hours {
+    background-image: url('img/banner-opening-hours.png');
 }
 
 .content {
     background-color: #FEFEFE;
     padding: 20px;
+}
+
+.content table {
+    width: 80%;
+    text-align: center;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+.content table thead {
+    color: #FEFEFE;
+    background-color: #292929;
+}
+
+.content table td{
+    width: 33.33%;
+    padding: 5px;
+    border: 1px #292929 solid;
 }
 
 .footer {
