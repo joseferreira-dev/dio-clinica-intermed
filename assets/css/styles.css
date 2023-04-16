@@ -60,7 +60,7 @@ html {
 }
 
 .main__texts {
-	width: 480px;
+	max-width: 480px;
 	margin-right: 20px;
 }
 
@@ -94,12 +94,25 @@ html {
 .btn__primary {
 	color: #FFF;
 	background-color: #458FF6;
+	transition: .5s;
+}
+
+.btn__primary:hover {
+	color: #458FF6;
+	background-color: #FFF;
+	border: 2px #458FF6 solid;
 }
 
 .btn__secondary {
 	color: #458FF6;
 	background-color: #FFF;
-	border: 
+	border: 2px #458FF6 solid;
+	transition: .5s;
+}
+
+.btn__secondary:hover {
+	color: #FFF;
+	background-color: #458FF6;
 }
 
 .main__illustration {
@@ -110,18 +123,6 @@ html {
 .section {
 	padding-top: 6rem;
 	padding-bottom: 6rem; 
-}
-
-.section__services {
-	text-align: center;
-	position: relative;
-}
-
-.shape {
-	position: absolute;
-	top: 6.5rem;
-	left: -26rem;
-	z-index: -1;
 }
 
 .section__title {
@@ -144,13 +145,28 @@ html {
 
 .section__text {
 	color: #7D7987;
-	width: 60rem;
-	margin-left: auto;
-	margin-right: auto;
 	margin-bottom: 5rem;
 	font-size: 1.125rem;
 	font-weight: 300;
 	line-height: 1.875rem;
+}
+
+.section__services {
+	text-align: center;
+	position: relative;
+}
+
+.section__services .section__text {
+	width: 60rem;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.shape {
+	position: absolute;
+	top: 6.5rem;
+	left: -26rem;
+	z-index: -1;
 }
 
 .services__cards {
@@ -162,6 +178,7 @@ html {
 	column-gap: 2.25rem;
 	margin-left: auto;
 	margin-right: auto;
+	margin-bottom: 4.5rem;
 }
 
 .card {
@@ -171,6 +188,10 @@ html {
 	background-color: #FFF;
 	box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
 	border-radius: 1.25rem;
+}
+
+.card__img {
+	min-height: 5.625rem;
 }
 
 .card h3 {
@@ -184,4 +205,23 @@ html {
 	font-size: 1rem;
 	line-height: 1.75rem;
 	color: #7D7987;
+	min-height: 5.25rem;
+}
+
+.section__services button {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.section__illustration {
+	width: 54%;
+}
+
+.section__providers {
+	display: flex;
+	justify-content: space-between;
+}
+
+.providers__text {
+	max-width: 400px;
 }
