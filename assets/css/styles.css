@@ -247,15 +247,6 @@ html {
 	line-height: 1.625rem;
 }
 
-.section__text {
-	color: var(--text-color);
-	font-size: 1.125rem;
-	font-weight: 500;
-	line-height: 2.5rem;
-	max-width: 460px;
-	margin: 1.5rem 0 2rem;
-}
-
 .services__special {
 	display: flex;
 	justify-content: space-between;
@@ -269,4 +260,42 @@ html {
 
 .special__content {
 	width: 48%;
+}
+
+.special__content .section__text {
+	color: var(--text-color);
+	font-size: 1.125rem;
+	font-weight: 500;
+	line-height: 2.5rem;
+	max-width: 460px;
+	margin: 1.5rem 0 2rem;
+}
+
+.services__group {
+	display: flex;
+	flex-wrap: wrap;
+	column-gap: 10%;
+	row-gap: 2rem;
+}
+
+.service__item {
+	max-width: 45%;
+}
+
+.service__item img {
+	margin-bottom: 1rem;
+}
+
+.service__item h3 {
+	color: var(--title-primary-color);
+	font-size: 1.25rem;
+	font-weight: 700;
+	line-height: 2rem;
+	margin-bottom: .5rem;
+}
+
+.service__item p {
+	color: var(--text-color);
+	font-size: .75rem;
+	line-height: 1.25rem;
 }
