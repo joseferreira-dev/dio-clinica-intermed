@@ -6,7 +6,8 @@
 	
   --body-bg-color: #F4FEFF;
   --text-color: #C4C4C4;
-  --title-color: #172048;
+  --title-primary-color: #172048;
+  --title-secondary-color: #017399;
   --title-gradient: linear-gradient(90.29deg, #50D9DB 0.21%, #007299 99.79%);
   --button-text-color: #FFFFFF;
   --button-bg-gradient: linear-gradient(97.65deg, #56E0E0 0.33%, #007299 93.35%);;
@@ -28,6 +29,19 @@ html {
 	margin-right: auto;
 	margin-left: auto;
 	padding: 0 7.5rem;
+}
+
+.button {
+	color: var(--button-text-color);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 1rem;
+	font-weight: 600;
+	line-height: 1.5rem;
+	text-decoration: none;
+	background: var(--button-bg-gradient);
+	box-shadow: 0px 10px 15px rgba(1, 115, 153, 0.2);
 }
 
 .header {
@@ -64,22 +78,97 @@ html {
 }
 
 .header__nav a:hover {
-	color: var(--title-color);
+	color: var(--title-primary-color);
 }
 
 .header__button {
-	color: var(--button-text-color);
-	display: flex;
-	align-items: center;
-	justify-content: center;
 	width: 9.25rem;
 	height: 3.5rem;
-	font-size: 1rem;
-	font-weight: 600;
-	line-height: 1.5rem;
-	text-decoration: none;
 	padding: 1rem 2.5rem;
 	border-radius: 1.75rem;
-	background: var(--button-bg-gradient);
-	box-shadow: 0px 10px 15px rgba(1, 115, 153, 0.2);
+}
+
+.main {
+	display: flex;
+	justify-content: space-between;
+	gap: 3rem;
+	width: 100%;
+	padding: 6.5rem 0 4.5rem;
+}
+
+.main__content {
+	max-width: 548px;
+}
+
+.main__title {
+	color: var(--title-primary-color);
+	font-size: 4rem;
+	font-weight: 700;
+	line-height: 6rem;
+}
+
+.main__title span {
+	background: var(--title-gradient);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	text-fill-color: transparent;
+}
+
+.main__text {
+	color: var(--text-color);
+	font-size: 1.125rem;
+	font-weight: 500;
+	line-height: 2.5rem;
+	max-width: 460px;
+	margin: 1.5rem 0 2rem;
+}
+
+.main__button {
+	width: 16rem;
+	height: 4rem;
+	border-radius: 2rem;
+}
+
+.main__goals {
+	display: flex;
+	gap: 4rem;
+	margin-top: 2.625rem;
+}
+
+.goal h3 {
+	color: var(--title-primary-color);
+	font-size: 2.25rem;
+	font-weight: 700;
+	line-height: 3.375rem;
+}
+
+.goal h3 span {
+	color: var(--title-secondary-color);
+}
+
+.goal p {
+	color: var(--text-color);
+	font-size: 1.125rem;
+	font-weight: 600;
+	line-height: 1.6875rem;
+}
+
+.main__images {
+	position: relative;
+}
+
+.image__front {
+	width: 100%;
+	max-width: 518px;
+	filter: drop-shadow(0px 10px 15px rgba(1, 115, 153, 0.3));
+}
+
+.image__back {
+	position: absolute;
+	top: -3rem;
+	left: -5rem;
+	z-index: -1;
+	width: 140%;
+	border-radius: 0 1.5rem 1.5rem 0;
 }
