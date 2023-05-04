@@ -1,234 +1,26 @@
 @import url(reset.css);
-@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
 
+:root {
+	font-size: 16px;
+	
+  --body-bg-color: #F4FEFF;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 
 html {
-	background-color: #FFF;
-	font-size: 16px;
-	font-family: 'Mulish', sans-serif;
-	box-sizing: border-box;
+	font-family: 'Poppins', Arial, sans-serif;
+	background-color: var(--page-background);
 }
 
 .container {
-	max-width: 1240px;
+	max-width: 1200px;
 	margin-right: auto;
 	margin-left: auto;
-	padding-right: 3rem;
-	padding-left: 3rem;
-}
-
-.header {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	height: 2.625rem;
-	padding-top: 2rem;
-	padding-bottom: 3rem;
-}
-
-.header__nav {
-	width: 545px;
-}
-
-.nav__list {
-	display: flex;
-	justify-content: space-between;
-}
-
-.nav__item a {
-	font-size: 1.125rem;
-	text-decoration: none;
-	color: #1F1534;
-	opacity: 50%;
-	transition: .5s;
-}
-
-.nav__item a:hover {
-	opacity: 100%;
-}
-
-.nav__item.nav__item--active a {
-	font-weight: 700;
-	opacity: 100%;
-}
-
-.main {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	align-items: center;
-	padding-bottom: 3rem;
-}
-
-.main__texts {
-	max-width: 480px;
-	margin-right: 20px;
-}
-
-.main__texts h1 {
-	font-size: 3rem;
-	font-weight: bold;
-	line-height: 3.5rem;
-	margin-bottom: 1rem;
-}
-
-.main__texts p {
-	font-size: 1.375rem;
-	font-weight: 300;
-	line-height: 2rem;
-	margin-bottom: 3rem;
-}
-
-.btn {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	font-size: 1.125rem;
-	font-weight: 700;
-	height: 3.75rem;
-	width: 200px;
-	background: none;
-	border: none;
-	border-radius: 1.875rem;
-}
-
-.btn__primary {
-	color: #FFF;
-	background-color: #458FF6;
-	transition: .5s;
-}
-
-.btn__primary:hover {
-	color: #458FF6;
-	background-color: #FFF;
-	border: 2px #458FF6 solid;
-}
-
-.btn__secondary {
-	color: #458FF6;
-	background-color: #FFF;
-	border: 2px #458FF6 solid;
-	transition: .5s;
-}
-
-.btn__secondary:hover {
-	color: #FFF;
-	background-color: #458FF6;
-}
-
-.main__illustration {
-	width: 44%;
-	margin-left: 2rem;
-}
-
-.section {
-	padding-top: 6rem;
-	padding-bottom: 6rem; 
-}
-
-.section__title {
-	font-size: 2.25rem;
-	font-weight: 700;
-	line-height: 3.5rem;
-}
-
-.section__title--black {
-	color: #000;
-}
-
-.section__divider {
-	display: inline-block;
-	width: 3.5rem;
-	height: 2px;
-	background-color: #000;
-	margin: 2rem 0;
-}
-
-.section__text {
-	color: #7D7987;
-	margin-bottom: 5rem;
-	font-size: 1.125rem;
-	font-weight: 300;
-	line-height: 1.875rem;
-}
-
-.section__services {
-	text-align: center;
-	position: relative;
-}
-
-.section__services .section__text {
-	width: 60rem;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-.shape {
-	position: absolute;
-	top: 6.5rem;
-	left: -26rem;
-	z-index: -1;
-}
-
-.services__cards {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-items: flex-start;
-	gap: 2.25rem;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 4.5rem;
-}
-
-.card {
-	align-self: stretch;
-  	min-width: 10rem;
-  	max-width: 22rem;
-  	text-align: left;
-	background-color: #FFF;
-	box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
-	border-radius: 1.25rem;
-}
-
-.card__content {
-	padding: 3.25rem 2.25rem;
-}
-
-.card__img {
-	min-height: 5.625rem;
-}
-
-.card h3 {
-	font-size: 1.5rem;
-	font-weight: 700;
-	line-height: 3.5rem;
-}
-
-.card p {
-	font-weight: 300;
-	font-size: 1rem;
-	line-height: 1.75rem;
-	color: #7D7987;
-	min-height: 5.25rem;
-}
-
-.section__services button {
-	margin-left: auto;
-	margin-right: auto;
-}
-
-.section__illustration {
-	width: 54%;
-}
-
-.section__providers,
-.section__download {
-	display: flex;
-	justify-content: space-between;
-}
-
-.providers__text,
-.download__text {
-	max-width: 400px;
+	padding: 0 7.5rem;
 }
