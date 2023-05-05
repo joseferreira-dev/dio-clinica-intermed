@@ -451,5 +451,9 @@ html {
 
 .footer {
 	margin-top: 12rem;
-	
+	margin-bottom: 4rem;
+}
+
+.copyright {
+	margin-bottom: 2rem;
 }
