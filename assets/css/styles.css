@@ -185,7 +185,15 @@ html {
 	justify-content: space-between;
 	align-items: center;
 	margin-bottom: 7.5rem;
+}
+
+.brand__group img {
 	opacity: .25;
+	transition: .5s;
+}
+
+.brand__group img:hover {
+	opacity: 1;
 }
 
 .section__services h2 {
@@ -299,3 +307,4 @@ html {
 	font-size: .75rem;
 	line-height: 1.25rem;
 }
+
