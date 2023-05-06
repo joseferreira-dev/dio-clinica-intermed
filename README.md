@@ -1,5 +1,34 @@
-# Projeto InterMed (Landing Page)
+<div align="center">
+	<img src="repository-assets/banner.png">
+</div>
+<br>
 
-Projeto do site de uma clínica fictícia com o nome InterMed, feito com o objetivo de praticar conceitos de HTML estudados durante o curso de HTML5 Developer da DigitalInnovationOne.
+# Project InterMed (Landing Page)
 
-A versão atualizada deste desafio projeto é bem diferente e mais avançado do que a proposta pelo curso. Trata-se de uma página estática, somente com HTML e CSS.
+Design of a landing page of a fictional clinic named InterMed, made with the aim of practicing HTML concepts studied during the HTML5 Web Developer course by DigitalInnovationOne.
+
+The updated version of this project is quite different and more advanced than the one proposed by the course. It is a static page, made only with HTML and CSS.
+<br>
+<br>
+
+## Technologies
+
+<div align="left">
+  <img height="50rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg" />
+  <img height="50rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg" />
+	<img height="50rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" />
+	<img height="50rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" />
+</div>
+<br>
+
+## Usage
+
+To visualize this project it is not necessary to install any auxiliary tool, just clone this repository and open the index.html file in any internet browser.
+
+Currently, the project is adapted to screens with a resolution of at least 1200px width.
+<br>
+<br>
+
+## Credits
+
+The design used as a basis for the development of this project was made by Feby Sabilhul (<a href="https://www.figma.com/@febysbl">@febysbl</a>).
