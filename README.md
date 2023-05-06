@@ -1,5 +1,5 @@
 <div align="center">
-	<img src="repository-assets/banner.png">
+	<a href="https://joseferreira-dev.github.io/dio-clinica-intermed/"><img src="repository-assets/banner.png"></a>
 </div>
 <br>
 
