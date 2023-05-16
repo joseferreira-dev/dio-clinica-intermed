@@ -31,14 +31,21 @@
   background-color: var(--color-primary);
 }
 
-.button--square {
+.button--square-big,
+.button--square-small {
+  padding: 0 2.5rem;
+  font-weight: 500;
   border-radius: .5rem;
 }
 
-.button--big {
+.button--square-big {
+  height: 4rem;
+  font-size: 1.375rem;
+  line-height: 1.875rem;
+}
+
+.button--square-small {
   height: 3.375rem;
-  padding: 0 2.5rem;
   font-size: 1.25rem;
-  font-weight: 500;
   line-height: 1.75rem;
 }

@@ -1,0 +1,80 @@
+@import url('../base/variables.css');
+
+.main-home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
+  padding-top: 2rem;
+}
+
+.main-home .main__group {
+  display: flex;
+  gap: 3rem;
+  width: 50%;
+  flex-direction: column;
+}
+
+.main-home h1,
+.main-home h1 span {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 4rem;
+}
+
+.main-home h1 {
+  color: var(--color-text-dark-bold);
+}
+
+.main-home h1 span {
+  color: var(--color-secondary);
+}
+
+.main-home h1 span:first-child {
+  color: var(--color-primary);
+}
+
+.main-home p {
+  color: var(--color-text-dark);
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+}
+
+.main-home .main__buttons {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 5rem;
+}
+
+.main__video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.video__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 3.375rem;
+  height: 3.375rem;
+  border-radius: 50%;
+  background-color: var(--color-primary);
+  transition: .4s;
+}
+
+.video__button svg {
+  fill: var(--color-text-light);
+  width: 1.25rem;
+  margin-left: .25rem;
+  transition: .4s;
+}
+
+.main__video span {
+  color: var(--color-text-dark-bold);
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+}

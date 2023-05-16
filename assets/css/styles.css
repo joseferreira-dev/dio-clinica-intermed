@@ -1,6 +1,7 @@
 @import url('base/reset.css');
 @import url('base/variables.css');
 @import url('layout/header.css');
+@import url('layout/main.css');
 
 
 @import url('modules/menu.css');
@@ -16,5 +17,6 @@ body {
   max-width: 1440px;
   margin-right: auto;
   margin-left: auto;
-  padding: 0 6.5rem;
+  padding-left: 6.5rem;
+  padding-right: 6.5rem;
 }
