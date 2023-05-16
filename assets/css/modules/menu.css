@@ -1,0 +1,25 @@
+@import url('../base/variables');
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu__item {
+  color: var(--color-text-dark-bold);
+  display: inline-block;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  transition: .4s;
+}
+
+.menu__item:hover {
+  color: var(--color-primary);
+}
+
+.menu__item-active {
+  color: var(--color-primary);
+  font-weight: bold;
+  border-bottom: 3px solid var(--color-primary);
+}

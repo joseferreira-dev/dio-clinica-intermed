@@ -1,0 +1,13 @@
+@import url('reset.css');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+:root {
+  font-family: 'DM Sans', Arial, sans-serif;
+
+  --color-primary: #007E85;
+  --color-secondary: #6EAB36;
+  --color-body-background: #ECECEC;
+  --color-text-dark: #555555;
+  --color-text-dark-bold: #333333;
+  --color-text-light: #FAFAFA;
+}

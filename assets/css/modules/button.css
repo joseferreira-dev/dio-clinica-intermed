@@ -1,0 +1,44 @@
+@import url('../base/reset.css');
+@import url('../base/variables.css');
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button__primary {
+  color: var(--color-text-light);
+  background-color: var(--color-primary);
+  transition: .4s;
+}
+
+.button__primary:hover {
+  color: var(--color-primary);
+  outline: 1px solid var(--color-primary);
+  background-color: var(--color-text-light);
+}
+
+.button__secondary {
+  color: var(--color-primary);
+  border: 1px solid var(--color-primary);
+  background: transparent;
+  transition: .4s;
+}
+
+.button__secondary:hover {
+  color: var(--color-text-light);
+  background-color: var(--color-primary);
+}
+
+.button--square {
+  border-radius: .5rem;
+}
+
+.button--big {
+  height: 3.375rem;
+  padding: 0 2.5rem;
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 1.75rem;
+}

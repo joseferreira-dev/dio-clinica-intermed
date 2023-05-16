@@ -1,0 +1,21 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1.5rem 0 3.5rem;
+}
+
+.header__logo {
+  width: 10.25rem;
+}
+
+.header__menu {
+  width: 20.5rem;
+}
+
+.header__buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
