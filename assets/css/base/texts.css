@@ -1,0 +1,54 @@
+@import url('variables.css');
+
+.title--big {
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 4.5rem;
+}
+
+.title--medium {
+  font-size: 2.25rem;
+  font-weight: bold;
+  line-height: 2.875rem;
+}
+
+.title--small {
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 2.125rem;
+}
+
+.text--big {
+  font-size: 1.5rem;
+  line-height: 2.125rem;
+}
+
+.text--medium {
+  font-size: 1.25rem;
+  line-height: 1.625rem;
+}
+
+.text--small {
+  font-size: 1.125rem;
+  line-height: 1.875rem;
+}
+
+.text--color-dark {
+  color: var(--color-text-black-dark);
+}
+
+.text--color-light {
+  color: var(--color-text-black-light);
+}
+
+.text--color-white {
+  color: var(--color-text-white);
+}
+
+.text--strong-dark {
+  color: var(--color-primary);
+}
+
+.text--strong-light {
+  color: var(--color-secondary);
+}
