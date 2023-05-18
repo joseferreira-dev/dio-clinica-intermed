@@ -1,0 +1,24 @@
+.section-team {
+  margin-bottom: 5rem;
+}
+
+.section-team h2,
+.section-team p {
+  text-align: center;
+}
+
+.section-team p {
+  max-width: 40rem;
+  margin: 1rem auto 3.75rem;
+}
+
+.section-team__cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 2.5rem;
+}
+
+.section-team__cards .team-card {
+  max-width: 31%;
+}

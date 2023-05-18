@@ -20,5 +20,5 @@
 }
 
 .section-services__cards .service-card {
-  width: 31.75%;
+  max-width: 31.75%;
 }

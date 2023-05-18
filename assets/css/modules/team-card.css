@@ -1,0 +1,36 @@
+.team-card {
+  padding: 2.5rem 2rem 3.5rem;
+  text-align: center;
+  border-radius: 1.5rem;
+  background-color: var(--color-text-white);
+}
+
+.team-card img {
+  width: 10rem;
+  border-radius: 50%;
+}
+
+.team-card h3 {
+  margin: 2.5rem 0 .5rem;
+}
+
+.team-card span {
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .125rem;
+}
+
+.team-card p {
+  margin: 1rem 0 2rem;
+}
+
+.card__social-medias ul {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.card__social-medias img {
+  border-radius: 0;
+  width: 2.25rem;
+}
