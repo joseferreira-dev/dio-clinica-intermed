@@ -31,4 +31,4 @@ Currently, the project is adapted to screens with a resolution of at least 1200p
 
 ## Credits
 
-The design used as a basis for the development of this project was made by Feby Sabilhul (<a href="https://www.figma.com/@febysbl">@febysbl</a>).
+The design used as a basis for the development of this project was made by Kashan Ali (<a href="https://www.figma.com/@kashanali">@kashanali</a>).
