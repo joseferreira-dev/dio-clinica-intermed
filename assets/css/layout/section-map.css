@@ -1,0 +1,30 @@
+.section-map {
+  display: flex;
+  align-items: center;
+  gap: 7.75rem;
+  margin-bottom: 9.75rem;
+}
+
+.section-map__group:first-child {
+  max-width: 28.5rem;
+}
+
+.section-map__group:first-child p {
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+
+.section-map__buttons {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.section-map__group:last-child {
+  width: 100%;
+}
+
+.section-map__group iframe {
+  width: 100%;
+  height: 30rem;
+  border-radius: .75rem;
+}

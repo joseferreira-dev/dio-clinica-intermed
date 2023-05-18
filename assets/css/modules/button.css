@@ -48,3 +48,23 @@
   font-size: 1.25rem;
   line-height: 1.75rem;
 }
+
+.button--circle-big,
+.button--circle-small {
+  padding: 0 2.25rem;
+  font-weight: 500;
+}
+
+.button--circle-big {
+  height: 4rem;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  border-radius: 2rem;
+}
+
+.button--circle-small {
+  height: 3.375rem;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  border-radius: 1.6875rem;
+}
