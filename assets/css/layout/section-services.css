@@ -1,0 +1,24 @@
+.section-services {
+  margin-bottom: 6rem;
+}
+
+.section-services h2,
+.section-services p {
+  text-align: center;
+}
+
+.section-services p {
+  max-width: 40rem;
+  margin: 1rem auto 3.75rem;
+}
+
+.section-services__cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 1.5rem;
+}
+
+.section-services__cards .service-card {
+  width: 31.75%;
+}

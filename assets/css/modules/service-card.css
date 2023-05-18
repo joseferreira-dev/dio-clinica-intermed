@@ -1,0 +1,36 @@
+.service-card {
+  padding: 1.5rem 1.5rem 3rem;
+  border-radius: 1.5rem;
+  background-color: var(--color-text-white);
+}
+
+.service-card img {
+  height: 14rem;
+  border-radius: .625rem;
+  object-fit: cover;
+}
+
+.service-card h3 {
+  margin: 1.5rem 0 .75rem;
+}
+
+.service-card p {
+  text-align: left;
+  margin-bottom: 2rem;
+}
+
+.card__learn-more {
+  display: inline-flex;
+  align-items: center;
+  gap: .5rem;
+}
+
+.card__learn-more span {
+  color: var(--color-primary);
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+
+.card__learn-more svg {
+  fill: var(--color-primary);
+}
