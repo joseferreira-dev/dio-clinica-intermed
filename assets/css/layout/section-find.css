@@ -1,0 +1,9 @@
+.section-find {
+  padding: 1.5rem 2.5rem 2.5rem;
+  border-radius: 1rem;
+  background-color: var(--color-text-white);
+}
+
+.section-find h2 {
+  margin-bottom: 1.625rem;
+}

@@ -1,0 +1,129 @@
+@import url('../base/variables.css');
+
+.form-find {
+  width: 100%;
+}
+
+.form-find form {
+  display: flex;
+  justify-content: stretch;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+}
+
+.input-group.input-text {
+  width: 27.5%;
+}
+
+.input-group input[type=text] {
+  color: var(--color-text-black-dark);
+  width: 100%;
+  height: 4rem;
+  font-size: 1.25rem;
+  padding: 0 1.25rem;
+  border-radius: .5rem;
+  outline: 1px solid var(--color-primary);
+}
+
+.input-group input[type=text]:focus {
+  outline: 2px solid var(--color-primary);
+}
+
+.input-group.input-button {
+  width: 20%;
+}
+
+.input-group button {
+  width: 100%;
+}
+
+.input-group.input-checkbox {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  width: 25%;
+}
+
+.input-group label {
+  color: var(--color-text-black-dark);
+  font-size: 1.25rem;
+}
+
+/* Checkbox Toggle */
+
+/* Styles and removes the element's default appearance */
+input[type=checkbox] {
+    outline: none;
+    position: relative;
+    z-index: 1;
+    margin: 2px;
+    padding: 0;
+    cursor: pointer;
+    width: 56px;
+    height: 32px;
+    overflow: hidden;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+/* Creates the before and after elements */
+input[type=checkbox]::before, input[type=checkbox]::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+
+    /* Animation effect */
+    transition: left .15s cubic-bezier(.25, .8, .25, .1),
+                transform .15s ease-in;
+}
+
+/* Default color when the element is not selected */
+input[type=checkbox]::before {
+    background-color: var(--color-text-black-light);
+    width: 100%;
+    height: 100%;
+    border-radius: 28px;
+}
+
+/* Styles it to look like a toggle button */
+input[type=checkbox]::after {
+    margin: 2px 0 0 2px;
+    background: #fff;
+    width: 28px;
+    height: 28px;
+    border-radius: 100%;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+}
+
+/* Changes the color if it has the checked property in the html or the user "checks" */
+input[type=checkbox]:checked::before {
+    background-color: var(--color-primary);
+}
+
+/* Change toggle button position if checked */
+input[type=checkbox]:checked::after {
+    left: 24px;
+}
+
+/* Optional button press effect */
+input[type=checkbox]:not([disabled]):active::after {
+    transform: scale(1.15, 0.85);
+}
+
+/* If the input has the disabled attribute, the color is changed */
+input[type=checkbox]:disabled::before {
+     background-color: var(--color-text-black-light) !important;
+}
+
+/* If the input has the disabled attribute, the color is changed */
+input[type=checkbox]:disabled::after {
+     background-color: var(--color-text-black-light) !important;
+}
