@@ -1,0 +1,23 @@
+.section-numbers {
+  margin-top: 8.25rem;
+  margin-bottom: 9.75rem;
+}
+
+.section-numbers h2 {
+  margin-bottom: 4rem;
+  text-align: center;
+}
+
+.section-numbers ul {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.section-numbers li {
+  text-align: center;
+}
+
+.section-numbers span {
+  font-weight: 700;
+}
