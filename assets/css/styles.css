@@ -8,12 +8,14 @@
 @import url('layout/section-map.css');
 @import url('layout/section-services.css');
 @import url('layout/section-team.css');
+@import url('layout/section-testimonial.css');
 
 @import url('modules/menu.css');
 @import url('modules/button.css');
 @import url('modules/form-find.css');
 @import url('modules/service-card.css');
 @import url('modules/team-card.css');
+@import url('modules/testimonial-card.css');
 
 body {
   background-color: var(--color-body-background);

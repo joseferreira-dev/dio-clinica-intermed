@@ -47,8 +47,10 @@
 
 .text--strong-dark {
   color: var(--color-primary);
+  font-weight: 700;
 }
 
 .text--strong-light {
   color: var(--color-secondary);
+  font-weight: 700;
 }
