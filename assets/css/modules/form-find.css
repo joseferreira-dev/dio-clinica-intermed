@@ -11,16 +11,16 @@
   gap: 1.5rem;
 }
 
-.input-group {
+.form-find__input-group {
   display: flex;
   align-items: center;
 }
 
-.input-group.input-text {
+.form-find__input-group.input-text {
   width: 27.5%;
 }
 
-.input-group input[type=text] {
+.form-find__input-group input[type=text] {
   color: var(--color-text-black-dark);
   width: 100%;
   height: 4rem;
@@ -30,26 +30,26 @@
   outline: 1px solid var(--color-primary);
 }
 
-.input-group input[type=text]:focus {
+.form-find__input-group input[type=text]:focus {
   outline: 2px solid var(--color-primary);
 }
 
-.input-group.input-button {
+.form-find__input-group.input-button {
   width: 20%;
 }
 
-.input-group button {
+.form-find__input-group button {
   width: 100%;
 }
 
-.input-group.input-checkbox {
+.form-find__input-group.input-checkbox {
   display: flex;
   justify-content: center;
   gap: 1.5rem;
   width: 25%;
 }
 
-.input-group label {
+.form-find__input-group label {
   color: var(--color-text-black-dark);
   font-size: 1.25rem;
 }

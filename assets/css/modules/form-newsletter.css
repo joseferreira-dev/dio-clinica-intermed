@@ -1,0 +1,13 @@
+.form-newsletter form {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.form-newsletter__input-group.input-text input {
+  height: 3.375rem;
+  padding: 0 1.5rem;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  border-radius: 1.6875rem;
+}

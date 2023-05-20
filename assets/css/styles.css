@@ -10,6 +10,7 @@
 @import url('layout/section-team.css');
 @import url('layout/section-testimonial.css');
 @import url('layout/section-companies.css');
+@import url('layout/section-newsletter.css');
 
 @import url('modules/menu.css');
 @import url('modules/button.css');
@@ -17,6 +18,7 @@
 @import url('modules/service-card.css');
 @import url('modules/team-card.css');
 @import url('modules/testimonial-card.css');
+@import url('modules/form-newsletter.css');
 
 body {
   background-color: var(--color-body-background);
