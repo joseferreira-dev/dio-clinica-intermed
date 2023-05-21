@@ -11,7 +11,19 @@
 .section-numbers ul {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .section-numbers ul {
+    justify-content: center;
+    row-gap: 2rem;
+  }
+
+  .section-numbers li {
+    width: 50%;
+  }
 }
 
 .section-numbers li {

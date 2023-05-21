@@ -22,7 +22,7 @@
   display: flex;
   justify-content: start;
   align-items: center;
-  gap: 5rem;
+  gap: 4rem;
 }
 
 .main__video {
@@ -46,6 +46,7 @@
 .video__button svg {
   fill: var(--color-text-light);
   width: 1.25rem;
+  height: 1.25rem;
   margin-left: .25rem;
   transition: .4s;
 }
@@ -60,6 +61,7 @@
 /** MAIN - SERVICE PAGE **/
 
 .main-service {
+  margin-bottom: 5.25rem;
   background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url('../../img/hospital-background.jpg');
   background-size: cover;
   background-position: center;

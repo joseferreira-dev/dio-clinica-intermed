@@ -22,3 +22,16 @@
 .section-services__cards .service-card {
   max-width: 31.75%;
 }
+
+@media screen and (max-width: 1200px) {
+  .section-services__cards .service-card {
+    max-width: 48%;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .section-services__cards .service-card {
+    max-width: 36rem;
+    margin: 0 auto;
+  }
+}
