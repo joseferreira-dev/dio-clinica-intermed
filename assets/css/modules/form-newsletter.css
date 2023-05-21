@@ -11,3 +11,7 @@
   line-height: 1.75rem;
   border-radius: 1.6875rem;
 }
+
+.form-newsletter__input-group.input-text input:focus {
+  outline: 2px solid var(--color-primary);
+}

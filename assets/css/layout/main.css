@@ -1,11 +1,14 @@
 @import url('../base/variables.css');
 
+/** MAIN - HOMEPAGE **/
+
 .main-home {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 2.5rem;
-  padding: 2.5rem 0;
+  padding-top: 1rem;
+  padding-bottom: 2.5rem;
 }
 
 .main-home .main__group {
@@ -52,4 +55,43 @@
   font-size: 1.25rem;
   font-weight: 500;
   line-height: 1.5rem;
+}
+
+/** MAIN - SERVICE PAGE **/
+
+.main-service {
+  background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url('../../img/hospital-background.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.main-service__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 45.125rem;
+}
+
+.main-service .main__group {
+  width: 50%;
+}
+
+.main-service h1 {
+  max-width: 32rem;
+}
+
+.main-service p {
+  max-width: 23.5rem;
+  margin-top: 3.25rem;
+  margin-bottom: 2.25rem;
+  line-height: 2rem;
+}
+
+.main-service .main__buttons {
+  display: flex;
+  gap: .75rem;
+}
+
+.main-service .main__buttons .button__secondary {
+  color: var(--color-text-white);
 }

@@ -1,0 +1,52 @@
+.form-appointment {
+  width: 20.5rem;
+  margin: 0 auto;
+  padding: 2.5rem;
+  border-radius: .625rem;
+  background-color: var(--color-text-white);
+}
+
+.form-appointment h2 {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.form-appointment form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: .75rem;
+}
+
+.form-appointment__input-group {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: .625rem;
+}
+
+.form-appointment__input-group:last-child {
+  margin-top: 2.5rem;
+}
+
+
+.form-appointment__input-group input,
+.form-appointment__input-group label,
+.form-appointment__input-group select,
+.form-appointment__input-group button {
+  width: 100%;
+  font-size: .875rem;
+}
+
+.form-appointment__input-group input,
+.form-appointment__input-group select {
+  height: 3.125rem;
+  padding: 0 1.25rem;
+  border-radius: .375rem;
+  border: 1px solid var(--color-primary);
+}
+
+.form-appointment__input-group input:focus,
+.form-appointment__input-group select:focus {
+  outline: 1px solid var(--color-primary);
+}
