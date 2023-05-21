@@ -7,12 +7,38 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 2rem;
   margin: 3rem 0;
+}
+
+@media screen and (max-width: 860px) {
+  .section-companies__slide-list {
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 1.5rem;
+  }
 }
 
 .section-companies__slide-list img {
   max-height: 2.25rem;
   max-width: 8.5rem;
+}
+
+@media screen and (max-width: 1200px) {
+  .section-companies__slide-list {
+    flex-wrap: wrap;
+  }
+
+  .section-companies__slide-list img {
+    max-width: 30%;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .section-companies__slide-list img {
+    max-width: 46%;
+  }
 }
 
 .section-companies__slide-page {

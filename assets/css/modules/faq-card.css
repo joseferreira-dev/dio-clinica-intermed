@@ -1,0 +1,24 @@
+.faq-card {
+  display: flex;
+  gap: 1.25rem;
+  padding: 1.5rem 2rem;
+  border-radius: .5rem;
+  background-color: var(--color-text-white);
+}
+
+.faq-card h3 {
+   font-size: 1rem;
+   line-height: 1.5rem;
+   margin-bottom: .375rem;
+}
+
+.faq-card p {
+   font-size: .875rem;
+   line-height: 1.5rem;
+   text-align: left;
+   margin-bottom: 0;
+}
+
+.faq-card__icon {
+  width: 1.25rem;
+}
