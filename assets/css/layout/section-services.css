@@ -29,7 +29,7 @@
   }
 }
 
-@media screen and (max-width: 920px) {
+@media screen and (max-width: 960px) {
   .section-services__cards .service-card {
     max-width: 36rem;
     margin: 0 auto;

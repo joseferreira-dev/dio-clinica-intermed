@@ -11,6 +11,7 @@
 @import url('layout/section-testimonial.css');
 @import url('layout/section-companies.css');
 @import url('layout/section-newsletter.css');
+@import url('layout/section-costumers.css');
 @import url('layout/footer.css');
 
 @import url('modules/menu.css');
@@ -21,6 +22,7 @@
 @import url('modules/testimonial-card.css');
 @import url('modules/form-newsletter.css');
 @import url('modules/form-appointment.css');
+@import url('modules/costumer-card.css');
 
 body {
   background-color: var(--color-body-background);

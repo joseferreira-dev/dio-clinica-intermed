@@ -1,0 +1,37 @@
+.section-costumers {
+  margin: 5rem 0;
+}
+
+.section-costumers h2,
+.section-costumers p {
+  text-align: center;
+}
+
+.section-costumers p {
+  max-width: 40rem;
+  margin: 1rem auto 3.75rem;
+}
+
+.section-costumers__cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2.25rem;
+}
+
+.section-costumers .costumer-card {
+  max-width: 26%;
+}
+
+@media screen and (max-width: 1200px) {
+  .section-costumers .costumer-card {
+    max-width: 30%;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .section-costumers .costumer-card {
+    max-width: 36rem;
+    margin: 0 auto;
+  }
+}

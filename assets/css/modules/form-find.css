@@ -11,6 +11,12 @@
   gap: 1.5rem;
 }
 
+@media screen and (max-width: 960px) {
+  .form-find form {
+    flex-direction: column;
+  }
+}
+
 .form-find__input-group {
   display: flex;
   align-items: center;
@@ -36,6 +42,13 @@
 
 .form-find__input-group.input-button {
   width: 20%;
+}
+
+@media screen and (max-width: 960px) {
+  .form-find__input-group.input-button,
+  .form-find__input-group.input-text {
+    width: 100%;
+  }
 }
 
 .form-find__input-group button {
@@ -66,10 +79,24 @@ input[type=checkbox] {
     cursor: pointer;
     width: 56px;
     height: 32px;
-    overflow: hidden;
+    overflow: visible;
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
+}
+
+@media screen and (max-width: 960px) {
+  input[type=checkbox] {
+    width: 112px;
+  }
+
+  input[type=checkbox]::before, input[type=checkbox]::after {
+    width: 56px;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    overflow: visible;
+  }
 }
 
 /* Creates the before and after elements */
@@ -88,9 +115,9 @@ input[type=checkbox]::before, input[type=checkbox]::after {
 /* Default color when the element is not selected */
 input[type=checkbox]::before {
     background-color: var(--color-text-black-light);
-    width: 100%;
+    width: 56px;
     height: 100%;
-    border-radius: 28px;
+    border-radius: 32px;
 }
 
 /* Styles it to look like a toggle button */

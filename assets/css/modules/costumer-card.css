@@ -1,0 +1,40 @@
+.costumer-card {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  padding: 2rem 2.25rem;
+  border-radius: .375rem;
+  background-color: var(--color-text-white);
+}
+
+.costumer-card__rating {
+  display: flex;
+  gap: .375rem;
+}
+
+.costumer-card__rating img {
+  width: 1.125rem;
+}
+
+.costumer-card span {
+  text-align: left;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 600;
+}
+
+.costumer-card__profile {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.profile__photo {
+  width: 3.125rem;
+}
+
+.profile__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
