@@ -13,6 +13,7 @@
 @import url('layout/section-newsletter.css');
 @import url('layout/section-costumers.css');
 @import url('layout/section-faq.css');
+@import url('layout/section-contact.css');
 @import url('layout/footer.css');
 
 @import url('modules/menu.css');
@@ -25,6 +26,7 @@
 @import url('modules/form-appointment.css');
 @import url('modules/costumer-card.css');
 @import url('modules/faq-card.css');
+@import url('modules/contact-form.css');
 
 body {
   background-color: var(--color-body-background);

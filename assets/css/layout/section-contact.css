@@ -1,0 +1,17 @@
+.section-contact {
+  margin: 5rem 0;
+}
+
+.section-contact h2,
+.section-contact h3,
+.section-contact p {
+  text-align: center;
+}
+
+.section-contact h2 {
+  margin: 1rem 0;
+}
+
+.section-contact p {
+  margin-bottom: 3rem;
+}

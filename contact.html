@@ -29,6 +29,53 @@
   <main class="main-contact">
     <h1 class="title--big text--color-white">Contact Us</h1>
   </main>
+  <section class="wrapper section-contact">
+    <h3 class="title--small text--color-dark">Get In Touch</h3>
+    <h2 class="title--big text--color-dark">Contact Us</h2>
+    <p class="text--medium text--color-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <form class="contact-form" action="">
+      <div class="contact-group">
+        <div class="form-contact__input-group input-text">
+          <label for="first-name">First name</label>
+          <input type="text" id="first-name" name="first-name" placeholder="Enter your first name" required>
+        </div>
+        <div class="form-contact__input-group input-text">
+          <label for="first-name">Last name</label>
+          <input type="text" id="last-name" name="last-name" placeholder="Enter your last name" required>
+        </div>
+      </div>
+      <div class="contact-group">
+        <div class="form-contact__input-group input-email">
+          <label for="first-name">Email</label>
+          <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        </div>
+        <div class="form-contact__input-group input-phone">
+          <label for="phone">Phone number</label>
+          <input type="text" id="phone" name="phone" placeholder="Enter your phone number" required>
+        </div>
+      </div>
+      <div class="form-contact__input-group input-select">
+        <label for="topic">Choose a topic</label>
+        <select name="topic" id="topic" required>
+          <option value="">Select one...</option>
+          <option value="Topic One">Topic One</option>
+          <option value="Topic Two">Topic two</option>
+          <option value="Topic Three">Topic Three</option>
+        </select>
+      </div>
+      <div class="form-contact__input-group input-textarea">
+        <label for="message">Choose a topic</label>
+        <textarea name="message" id="message" placeholder="Type your message..."></textarea>
+      </div>
+      <div class="form-contact__input-group input-checkbox">
+        <input type="checkbox" id="terms" name="terms" required>
+        <label for="terms">I accept the terms</label>
+      </div>
+      <div class="form-contact__input-group input-button">
+        <button class="button button__primary button--square-small">Submit</button>
+      </div>
+    </form>
+  </section>
   <section class="wrapper section-newsletter">
     <h2 class="title--medium text--color-dark">Subscribe to our newsletter</h2>
     <div class="form-newsletter">
