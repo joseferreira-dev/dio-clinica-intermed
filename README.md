@@ -5,11 +5,15 @@
 
 # Project InterMed (Landing Page)
 
-Design of a landing page of a fictional clinic named InterMed, made with the aim of practicing HTML concepts studied during the HTML5 Web Developer course by DigitalInnovationOne.
+Design of a landing page for a medical clinic named InterMed, produced with the aim of practicing the HTML concepts studied during the HTML5 Web Developer course by DigitalInnovationOne.
 
-The updated version of this project is quite different and more advanced than the one proposed by the course. It is a static page, made only with HTML and CSS.
 
-The SMACSS organization standard and class nomenclature according to the BEM standard were also used in the construction of the style sheets for this project.
+
+This is an improved and more advanced version compared to the initially proposed project. It is a static page, made only with HTML and CSS.
+
+
+
+During the decoding of this project, some concepts from the SMACSS (architecture) and BEM (nomenclature) standards were applied for the organization of style sheets.
 <br>
 <br>
 
