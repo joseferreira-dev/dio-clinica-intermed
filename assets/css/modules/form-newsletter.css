@@ -4,6 +4,12 @@
   gap: 1.5rem;
 }
 
+@media screen and (max-width: 480px) {
+  .form-newsletter form {
+    flex-wrap: wrap;
+  }
+}
+
 .form-newsletter__input-group.input-text input {
   height: 3.375rem;
   padding: 0 1.5rem;

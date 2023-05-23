@@ -11,6 +11,13 @@
   padding-bottom: 2.5rem;
 }
 
+@media screen and (max-width: 1200px) {
+  .main-home h1 {
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
+}
+
 .main-home .main__group {
   display: flex;
   gap: 3rem;
@@ -18,11 +25,37 @@
   flex-direction: column;
 }
 
+@media screen and (max-width: 1200px) {
+  .main-home .main__group {
+    gap: 2rem;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .main-home .main__group {
+    width: 100%;
+  }
+}
+
 .main-home .main__buttons {
   display: flex;
   justify-content: start;
   align-items: center;
   gap: 4rem;
+}
+
+@media screen and (max-width: 1200px) {
+  .main-home .main__buttons {
+    flex-wrap: wrap-reverse;
+    gap: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .main-home .main__buttons {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .main__video {
@@ -56,6 +89,12 @@
   font-size: 1.25rem;
   font-weight: 500;
   line-height: 1.5rem;
+}
+
+@media screen and (max-width: 960px) {
+  .main-home .main__image {
+    display: none;
+  }
 }
 
 /** MAIN - SERVICE PAGE **/
