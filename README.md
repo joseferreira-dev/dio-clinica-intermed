@@ -39,8 +39,6 @@ During the decoding of this project, some concepts from the SMACSS (architecture
 ## Usage
 
 To visualize this project it is not necessary to install any auxiliary tool, just clone this repository and open the index.html file in any internet browser.
-
-Currently, the project is adapted to screens with a resolution of at least 1200px width.
 <br>
 <br>
 
