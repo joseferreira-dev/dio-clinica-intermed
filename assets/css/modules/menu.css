@@ -6,7 +6,7 @@
   align-items: center;
 }
 
-.menu__item {
+.menu .menu__item {
   color: var(--color-text-black-dark);
   display: inline-block;
   font-size: 1.5rem;
@@ -14,11 +14,11 @@
   transition: .4s;
 }
 
-.menu__item:hover {
+.menu .menu__item:hover {
   color: var(--color-primary);
 }
 
-.menu__item-active {
+.menu .menu__item-active {
   color: var(--color-primary);
   font-weight: bold;
   border-bottom: 3px solid var(--color-primary);

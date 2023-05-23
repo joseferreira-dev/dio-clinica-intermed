@@ -21,6 +21,13 @@
   gap: 1rem;
 }
 
+.header__menu--mobile {
+  position: absolute;
+  top: 5.875rem;
+  width: 100%;
+  left: 0;
+}
+
 @media screen and (max-width: 1200px) {
   .header__menu {
     display: none;
@@ -28,5 +35,16 @@
 
   .header__buttons {
     display: none;
+  }
+}
+
+.header__menu-icon {
+  display: none;
+}
+
+@media screen and (max-width: 1200px) {
+  .header__menu-icon {
+    display: block;
+    z-index: 100;
   }
 }

@@ -17,7 +17,9 @@
 @import url('layout/footer.css');
 
 @import url('modules/menu.css');
+@import url('modules/menu-icon.css');
 @import url('modules/button.css');
+@import url('modules/menu-mobile.css');
 @import url('modules/form-find.css');
 @import url('modules/service-card.css');
 @import url('modules/team-card.css');
@@ -53,4 +55,8 @@ body {
     padding-left: 3rem;
     padding-right: 3rem;
   }
+}
+
+.hidden {
+  display: none;
 }
