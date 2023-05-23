@@ -34,11 +34,26 @@
   margin-bottom: 2rem;
 }
 
+@media screen and (max-width: 768px) {
+  .contact-group {
+    flex-wrap: wrap;
+  }
+}
+
 .form-contact__input-group.input-text,
 .form-contact__input-group.input-email,
 .form-contact__input-group.input-phone {
   display: inline-block;
   width: 50%;
+}
+
+@media screen and (max-width: 768px) {
+  .form-contact__input-group.input-text,
+  .form-contact__input-group.input-email,
+  .form-contact__input-group.input-phone {
+    display: block;
+    width: 100%;
+  }
 }
 
 .form-contact__input-group.input-select,
@@ -61,4 +76,10 @@
   width: 24rem;
   margin-left: auto;
   margin-right: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .form-contact__input-group button {
+    width: 100%;
+  }
 }
